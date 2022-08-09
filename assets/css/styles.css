@@ -261,6 +261,7 @@ footer .footnote p {
 
 .page-footer .footer-end {
   padding-left: 5%;
+  padding-right: 5%;
 }
 
 .page-footer .footer-end .footer-row {
@@ -283,6 +284,8 @@ footer .footnote p {
 
 .footer-legal {
   margin-top: -10px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .footer-legal h5, .footer-legal p, .footer-legal a {
@@ -303,5 +306,9 @@ footer .footnote p {
 .footer-legal a:hover, .footer-legal h5:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.footer-end {
+  width: 100% !important;
 }
 
