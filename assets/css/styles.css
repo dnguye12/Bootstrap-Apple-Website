@@ -175,7 +175,7 @@ body {
 }
 
 .product-small {
-  height: 550px;
+  height: 500px;
   padding-top: 40px;
   margin: 0 0 10px 0;
   text-align: center;
@@ -201,6 +201,11 @@ body {
   font-weight: 400;
 }
 
+.i13head {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
 .product-small .links {
   font-size: 17px;
   margin-bottom: 80px;
@@ -218,16 +223,24 @@ body {
   text-decoration: none;
 }
 
+.product-small .links a:hover {
+  text-decoration: underline;
+}
+
 .product-small.behind-the-mac.dark {
-  padding-top: 420px;
+  padding-top: 370px;
+}
+
+.air-pod .links a {
+  color: white !important;
 }
 
 .product-small.dark {
   color: white !important;
 }
 
-.product-small.dark a {
-  color: white !important;
+.col-md-6 {
+  margin-bottom: 10px;
 }
 
 .product-grid {
@@ -240,22 +253,10 @@ body {
   }
 }
 
-.product-small.iphone-8 {
-  background-color: #f9f0eb;
-}
-
-.product-small.air-pod {
-  background-color: #fafafa;
-}
-
 .product-small.watch h5 {
   color: red;
   font-size: 16px;
   font-weight: bold;
-}
-
-.product-small.watch {
-  background-color: #eeeeee;
 }
 
 .banner div {
