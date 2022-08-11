@@ -22,11 +22,11 @@ body {
   padding-top: 50px;
   text-align: center;
   margin-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .product {
     text-align: center;
     margin-bottom: 10px;
@@ -79,18 +79,82 @@ body {
   background-color: #f5f5f7;
 }
 
-.product.ipad {
-  background-color: #f4f3f4;
-}
-
-.product.macbook {
-  background-color: #131218;
-  padding-bottom: 50px;
+.product.iphone-x img {
+  object-fit: cover;
+  height: 422px;
+  width: auto;
+  padding-top: 20px;
 }
 
 @media (min-width: 576px) {
-  .product.macbook {
-    padding-bottom: 0;
+  .product.iphone-x img {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .product.iphone-x img {
+    object-fit: fill;
+    height: auto;
+    width: auto;
+  }
+}
+
+.product.ipad {
+  background-color: #fbfbfd;
+}
+
+.product.ipad .mac_air_img {
+  margin-top: -55px;
+  margin-bottom: 10px;
+  padding-right: 30px;
+  object-fit: cover;
+  width: auto;
+  height: 313px;
+}
+
+@media (min-width: 576px) {
+  .product.ipad .mac_air_img {
+    margin-top: -80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product.ipad .mac_air_img {
+    margin-top: 0;
+    margin-bottom: 0;
+    object-fit: cover;
+    padding-right: 0;
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product.ipad img {
+    width: auto;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+.product.macbook {
+  background-color: #fbfbfd;
+}
+
+.product.macbook img {
+  object-fit: cover;
+  height: 272px;
+  width: auto;
+  padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .product.macbook img {
+    object-fit: fill;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
   }
 }
 
